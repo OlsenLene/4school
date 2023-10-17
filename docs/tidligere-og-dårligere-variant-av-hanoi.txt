@@ -1,0 +1,8 @@
+overlay-xy(circle(5, "solid", "black"), -260, -55,
+  overlay-xy(circle(5, "solid", "black"), -160, -55,
+    overlay-xy(circle(5, "solid", "black"), -65, -55,
+      overlay-xy(circle(10, "solid","red"), -255, -50,
+        overlay-xy(circle(20, "solid","green"), -245, -40,
+          overlay-xy(circle(30, "solid","blue"), -235, -30,
+            overlay-xy(circle(40, "solid","orange"), -225, -20,
+rectangle(330, 120, "outline", "black"))))))))
