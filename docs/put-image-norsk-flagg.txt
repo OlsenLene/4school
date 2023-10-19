@@ -1,0 +1,16 @@
+liten-roed = rectangle(60, 60, "solid", "red")
+liten-hvit = rectangle(70, 70, "solid", "white")
+stor-roed = rectangle(120, 60, "solid", "red")
+stor-hvit = rectangle(130, 70, "solid", "white")
+blaa-base = rectangle(220, 160, "solid", "blue")
+
+norsk-flagg = put-image(liten-roed, 30, 130,
+  put-image(liten-hvit, 35, 125, 
+    put-image(liten-roed, 30, 30,
+      put-image(liten-hvit, 35, 35, 
+        put-image(stor-roed, 160, 130,
+          put-image(stor-hvit, 155, 125,
+            put-image(stor-roed, 160, 30,
+              put-image(stor-hvit, 155, 35, blaa-base))))))))
+
+norsk-flagg
